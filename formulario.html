@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="./estilos.css">
+		<title>FORMULARIO DE REGISTRO</title>
+		
+		<style type="text/css">
+			
+			h1 { 
+				margin-top: -22px;
+				color: #798092;
+				text-align: center;
+				font-size: xx-large;
+			 	background-image: url(img/banner.jpg);
+				margin-right: 20%;
+				margin-left: 20%;
+				padding-top: 3%;
+				padding-bottom: 3%;
+			 	font-family: Impact, Charcoal, sans-serif;
+			 }
+			 
+
+		</style>
+
+	</head>
+
+	<header>
+		<h1><font size="20">NUEVO FORMULARIO DE REGISTRO</font></h1>
+	</header>
+
+
+	<body>
+		
+		<nav class="campos" >
+		<form id="formulario" method="post" action="">
+			<label for="Nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre" autofocus required style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="Email">Correo electrónico:</label>
+			<input type="Email" name="email" id="email"	required="" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="Facebook">Facebook profile (URL):</label>
+			<input type="URL" name="facebook" id="facebook" placeholder="Escribe la URL de perfil de Facebook" size="28" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="Nacimiento">Fecha de nacimiento:</label>
+			<input type="date" name="nacimiento" id="nacimiento" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="HoraRegistro">Fecha y hora de registro:</label>
+			<input type="datetime-local" name="horaRegistro" id="horaRegistro" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="Documento">Número de documento:</label>
+			<input type="text" maxlength="20" minlength="5" name="documento" id="documento" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="Edad">Edad:</label>
+			<input type="number" name="edad" id="edad" min="1" max="100" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<label for="Color">Color favorito:</label>
+			<input type="Color" name="color" id="color" style="width: 10cm; height: 0.6cm;">
+			<p>
+			<input type="submit" name="Submit" style="text-decoration: none; padding: 10px; font-weight: 600; font-size: 20px; color: #ffffff; background-color: #798092; border-radius: 6px; border: 3px solid #000D2D;">
+		</nav>
+		</form>
+	</body>
+
+
+	<footer style="background-color: black; color: white; text-align: center; margin-left: 20%; margin-right: 20%; margin-top: -22px; padding-top: 2%; padding-bottom: 2%;">
+		<div>
+			<p>Por: Jhon Jairo Ballen Agudelo
+			<p>Cod: 1810010725
+			<p>Fecha: 17-08-2020
+		</div>
+	</footer>
+</html>
